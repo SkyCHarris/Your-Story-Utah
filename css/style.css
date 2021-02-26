@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+/* Zero-out padding and margin to nullify default from browser */
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* Don't want bullet points */
+ul {
+    list-style-type: none;
+
+}
+
+/* 
+-Don't want underlines
+-Change color away from blue
+ */
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2 {
+   margin: 10px 0;
+}
+
+/* Top/Bottom Space to differentiate between paragraphs */
+p {
+    margin: 10px 0; 
+}
+
+/* Keeps images within their container */
+img {
+    width: 100%
+}
