@@ -1,0 +1,39 @@
+
+body {
+    color: #2e2e2e;
+}
+
+
+/* Header and Navbar */
+.logo {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.navbar p {
+    text-align: center;
+    margin-top: 3px;
+}
+
+li {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    display: block;
+    color: #2e2e2e;
+    padding-top: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+
