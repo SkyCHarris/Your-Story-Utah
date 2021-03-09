@@ -37,3 +37,28 @@ a {
     text-align: center;
 }
 
+/* Main Div 1, Showcase */
+
+.slider-container {
+    width: 900px;
+    height: 630px;
+}
+
+.image-container {
+    border: 2px solid red;
+    /* Need to note and adjust width to fit mobile first */
+    width: 2700px; 
+    height: 630px;
+    margin: 20px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
