@@ -46,9 +46,6 @@ a {
 
 .image-container {
     border: 2px solid red;
-    /* Need to note and adjust width to fit mobile first */
-    width: 2700px; 
-    height: 630px;
     margin: 20px;
     position: relative;
     transition: left 2s;
@@ -58,7 +55,9 @@ a {
 }
 
 .slider-image {
-    float: left;
+/* Slider scales responsively now with width of browser, need to center for largest screens */
+    max-width: 100%;
+    height: auto;
     margin: 0px;
     padding: 0px;
 }
