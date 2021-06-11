@@ -1,13 +1,14 @@
 
 body {
     color: #2e2e2e;
+    width: 90%;
 }
 
 
 /* Header and Navbar */
 .logo {
     text-align: center;
-    margin-bottom: 5px;
+    margin: auto;
 }
 
 .navbar {
@@ -39,14 +40,10 @@ a {
 
 /* Main Div 1, Showcase */
 
-.main_div1 {
-    display: flex;
-}
-
-.slider-container {
+/* .slider-container {
     width: 900px;
     height: 630px;
-}
+} */
 
 .image-container {
     border: 2px solid black;
@@ -61,7 +58,6 @@ a {
 .slider-image {
 /* Slider scales responsively now with width of browser, need to center for largest screens */
     max-width: 100%;
-    height: auto;
     margin: 0px;
     padding: 0px;
 }
