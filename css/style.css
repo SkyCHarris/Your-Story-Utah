@@ -49,13 +49,16 @@ a {
 } */
 
 .image-container {
-    border: 2px solid black;
-    margin: 20px;
-    position: relative;
+    border: 1px solid black;
+    margin: 0;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* position: relative;
     transition: left 2s;
     -webkit-transition: left 2s;
     -moz-transition: left 2s;
-    -o-transition: left 2s;
+    -o-transition: left 2s; */
 }
 
 .slider-image {
