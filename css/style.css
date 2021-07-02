@@ -99,6 +99,12 @@ button {
     border: solid 1px black;
 }
 
+.canvases_prints_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .button_customize_canvas {
     text-align: center;
     margin-top: 15px;
@@ -180,6 +186,12 @@ button {
 .main_div4_canvasart_box {
     height: 130px;
     border: solid 1px black;
+}
+
+.canvas_art_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .button_order_now {
