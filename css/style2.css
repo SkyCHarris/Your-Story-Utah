@@ -44,5 +44,20 @@ img {
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(7, 1fr);
-    
+}
+
+.main-nav a {
+    background: var(--primary);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    font-size: .9rem;
+    box-shadow: var(--shadow);
+}
+
+.main-nav a:hover {
+    background: var(--dark);
+    color: var(--light);
 }
