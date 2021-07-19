@@ -34,9 +34,20 @@ img {
 .wrapper {
     display: grid;
     grid-gap: 10px;
+    grid-template-areas:
+    'navbar navbar navbar'
+    'slider-container slider-container slider-container'
+    'canvas-prints canvas-prints canvas-prints'
+    ''
 }
 
+
+
 /* Navigation */
+
+.main-nav {
+    grid-area: navbar;
+}
 
 .main-nav ul {
     display: grid;
@@ -65,6 +76,7 @@ img {
 /* Slider-Container */
 
 .slider-container {
+    grid-area: slider-container;
     display: grid;
     grid-gap: 20px;
     grid-template-areas:
@@ -89,4 +101,12 @@ img {
 
 .top-box-c {
     grid-area: top-box-b;
+}
+
+
+
+/* Canvases & Prints */
+
+.canvases_and_prints {
+    grid-area: canvas-prints;
 }
