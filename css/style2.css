@@ -34,20 +34,32 @@ img {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-areas:
-    'navbar navbar navbar'
-    'slider-container slider-container slider-container'
-    'canvas-prints canvas-prints canvas-prints'
-    ''
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-area:
+    'main-nav'
+    'slider-container'
+    'canvas-prints'
+    'footer';
 }
-
-
-
-/* Navigation */
 
 .main-nav {
-    grid-area: navbar;
+    grid-area: main-nav;
 }
+
+.slider-container {
+    grid-area: slider-container;
+}
+
+.canvases_and_prints {
+    grid-area: canvas-prints;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+/* Navigation */
 
 .main-nav ul {
     display: grid;
@@ -76,7 +88,6 @@ img {
 /* Slider-Container */
 
 .slider-container {
-    grid-area: slider-container;
     display: grid;
     grid-gap: 20px;
     grid-template-areas:
@@ -101,12 +112,4 @@ img {
 
 .top-box-c {
     grid-area: top-box-b;
-}
-
-
-
-/* Canvases & Prints */
-
-.canvases_and_prints {
-    grid-area: canvas-prints;
 }
