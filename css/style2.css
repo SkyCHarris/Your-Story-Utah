@@ -35,7 +35,7 @@ img {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(auto-fit, 400px);
+    grid-template-rows: 10vh 60vh 80vh 10vh;
     grid-template-areas:
         "main-nav"
         "slider-container"
