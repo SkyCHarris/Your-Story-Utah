@@ -34,15 +34,16 @@ img {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-area:
-    'main-nav'
-    'slider-container'
-    'canvas-prints'
-    'footer';
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fit, 400px);
+    grid-template-areas:
+        "main-nav main-nav main-nav main-nav"
+        "slider-container slider-container slider-container slider-container"
+        "canvas-prints canvas-prints canvas-prints canvas-prints"
+        "footer footer footer footer"
 }
 
+/* Assign Grid Items to Places on the Grid! */
 .main-nav {
     grid-area: main-nav;
 }
@@ -53,6 +54,7 @@ img {
 
 .canvases_and_prints {
     grid-area: canvas-prints;
+    margin: 20px;
 }
 
 .footer {
