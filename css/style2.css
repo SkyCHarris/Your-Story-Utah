@@ -34,27 +34,23 @@ img {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(auto-fit, 400px);
     grid-template-areas:
-        "main-nav main-nav main-nav main-nav"
-        "slider-container slider-container slider-container slider-container"
-        "canvas-prints canvas-prints canvas-prints canvas-prints"
-        "footer footer footer footer"
+        "main-nav"
+        "slider-container"
+        "canvas-prints"
+        "footer"
 }
 
-/* Assign Grid Items to Places on the Grid! */
+
 .main-nav {
     grid-area: main-nav;
 }
 
-.slider-container {
-    grid-area: slider-container;
-}
-
 .canvases_and_prints {
     grid-area: canvas-prints;
-    margin: 20px;
+    margin: 10px auto;
 }
 
 .footer {
@@ -92,26 +88,32 @@ img {
 .slider-container {
     display: grid;
     grid-gap: 20px;
-    grid-template-areas:
-    'slider-container slider-container slider-container'
-    'slider-container slider-container slider-container'
-    'top-box-a top-box-b top-box-c';
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40vh 25vh;
+    grid-template-areas: 
+    "slider slider slider"
+    "box-a box-b box-c"
 }
 
-/* Slider-Container */
+/* Slider-Container Grid-Areas */
 
-.slider-container {
-    grid-area: slider-container;
+.slider {
+    grid-area: slider;
+    margin: auto;
+    object-fit: cover;
+    max-height: 100%;
 }
 
 .top-box-a {
-    grid-area: top-box-a;
+    grid-area: box-a;
 }
 
 .top-box-b {
-    grid-area: top-box-b;
+    grid-area: box-b;
 }
 
 .top-box-c {
-    grid-area: top-box-b;
+    grid-area: box-c;
 }
+
+
