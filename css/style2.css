@@ -29,13 +29,15 @@ body {
 
 img {
     max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
 
 .wrapper {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 10vh 60vh 80vh 10vh;
+    grid-template-rows: repeat(4, 1fr);
     grid-template-areas:
         "main-nav"
         "slider-container"
