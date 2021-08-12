@@ -51,6 +51,26 @@ img {
 .canvases_and_prints {
     grid-area: canvas-prints;
     margin: 10px auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20vh 10vh 15vh;
+    grid-template-areas:
+        "canvas-banner canvas-banner canvas-banner"
+        "canvas-title-text canvas-title-text canvas-title-text"
+        "canvas-prints-display canvas-prints-display canvas-prints-display"
+}
+
+.canvas_banner {
+    grid-area: canvas-banner;
+}
+
+.canvas_title_text {
+    grid-area: canvas-title-text;
+}
+
+.canvas_prints_display {
+    grid-area: canvas-prints-display;
 }
 
 .footer {
