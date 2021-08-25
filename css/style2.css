@@ -22,9 +22,12 @@ body {
 .btn {
     background: var(--dark);
     color: var(--light);
-    padding: 0.6rem 1.3rem;
+    padding: .5rem;
     text-decoration: none;
     border: 0;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
 }
 
 img {
@@ -142,7 +145,7 @@ img {
 /* Boxes */
 
 .top-box {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    align-items: center;
     justify-items: center;
 }
