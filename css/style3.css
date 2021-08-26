@@ -4,3 +4,34 @@
     border: 1px solid black;
     background-color: lightgrey;
 }
+
+.img_box {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-rows: 2
+}
+
+.img_1, .img_2, .img_3, .img_4 {
+    border: solid black 1px;
+    width: 40%;
+    height: auto;
+    grid-template-areas:
+    "one two"
+    "three four";
+}
+
+.img_1 {
+    grid-area: one;
+}
+
+.img_1 {
+    grid-area: two;
+}
+
+.img_1 {
+    grid-area: three;
+}
+
+.img_1 {
+    grid-area: four;
+}
