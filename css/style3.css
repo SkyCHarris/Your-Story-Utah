@@ -1,3 +1,7 @@
+img {
+   max-width: 100%;
+}
+
 .slider {
     width: 90%;
     height: 200px;
@@ -8,12 +12,12 @@
 .img_box {
     display: grid;
     grid-gap: 15px;
-    grid-template-rows: 2
+    padding: 1rem;
 }
 
 .img_1, .img_2, .img_3, .img_4 {
     border: solid black 1px;
-    width: 40%;
+    width: 100%;
     height: auto;
     grid-template-areas:
     "one two"
