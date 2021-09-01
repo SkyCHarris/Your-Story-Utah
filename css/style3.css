@@ -28,13 +28,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px black solid;
     margin: .8em auto;
     padding: 5px;
     width: 15vh;
     height: 15vh;
-    box-shadow: 5px 8px;
-    background-color: #f5f5f5;
 }
 
 .bottom_box h5 {
