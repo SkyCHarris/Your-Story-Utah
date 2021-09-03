@@ -141,8 +141,40 @@ header li {
     vertical-align: center;
 }
 
+.photo_gallery {
+    display: grid;
+    grid-template-areas:
+    ". . left-mid-top left-mid-top . ."
+    "left left left-mid-top left-mid-top right-mid-top ."
+    "left left left-mid-top left-mid-top right-mid-top right"
+    "left left left-mid-top left-mid-top . right"
+    "left left . . right-mid-bottom right-mid-bottom"
+    ". . . . right-mid-bottom right-mid-bottom .";
+}
 
+.gallery_img_1 {
+    grid-area: "left";
+}
 
+.gallery_img_2 {
+    grid-area: "left-mid-top";
+}
+
+.gallery_img_3 {
+    grid-area: "left-mid-bottom";
+}
+
+.gallery_img_4 {
+    grid-area: "right-mid-top";
+}
+
+.gallery_img_5 {
+    grid-area: "right-mid-bottom";
+}
+
+.gallery_img_6 {
+    grid-area: "right";
+}
 
 
 /* Mobile */
