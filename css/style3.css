@@ -1,3 +1,7 @@
+body {
+    box-sizing: border-box;
+}
+
 
 /* Navbar */
 
@@ -143,13 +147,16 @@ header li {
 
 .photo_gallery {
     display: grid;
+    grid-gap: 5px;
     grid-template-areas:
-    ". . left-mid-top left-mid-top . ."
+    /* ". . left-mid-top left-mid-top . ."
     "left left left-mid-top left-mid-top right-mid-top ."
     "left left left-mid-top left-mid-top right-mid-top right"
     "left left left-mid-top left-mid-top . right"
     "left left . . right-mid-bottom right-mid-bottom"
-    ". . . . right-mid-bottom right-mid-bottom .";
+    ". . . right-mid-bottom right-mid-bottom ."; */
+    "left left-mid-top left-mid-bottom"
+    "right-mid-top right-mid-bottom right";
 }
 
 .gallery_img_1 {
