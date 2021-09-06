@@ -2,6 +2,9 @@ body {
     box-sizing: border-box;
 }
 
+hr {
+    color: darkgray;
+}
 
 /* Navbar */
 
@@ -38,6 +41,7 @@ header li {
 
 .slider_section {
     text-align: center;
+    margin-top: 6em;
 }
 
 .slider_section img {
@@ -103,6 +107,8 @@ header li {
 
 .canvases_and_prints_section {
     text-align: center;
+    margin: 6em auto;
+
 }
 
 .img_box {
@@ -138,6 +144,9 @@ header li {
 
 /* Photography Section */
 
+.photography_section {
+    margin-top: 6em;
+}
 
 .photo_gallery img {
     max-width: 100%;
@@ -149,12 +158,6 @@ header li {
     display: grid;
     grid-gap: 5px;
     grid-template-areas:
-    /* ". . left-mid-top left-mid-top . ."
-    "left left left-mid-top left-mid-top right-mid-top ."
-    "left left left-mid-top left-mid-top right-mid-top right"
-    "left left left-mid-top left-mid-top . right"
-    "left left . . right-mid-bottom right-mid-bottom"
-    ". . . right-mid-bottom right-mid-bottom ."; */
     "left left-mid-top left-mid-bottom"
     "right-mid-top right-mid-bottom right";
 }
