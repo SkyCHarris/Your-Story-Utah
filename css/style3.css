@@ -1,5 +1,8 @@
 body {
     box-sizing: border-box;
+    max-width: 90%;
+    margin: auto;
+    min-width: 90%;
 }
 
 hr {
@@ -161,13 +164,13 @@ header li {
     width: 100%;
 }
 
-.photography_section > h2, 
-.photography_section > p {
+.photography_textbox > h2, 
+.photography_textbox > p {
     text-align: right;
 }
 
-.photography_section > a,
-.adventure_kits_section > a  {
+.photography_textbox > a,
+.adventure_kits_textbox > a  {
 position: relative;
 left: 90%;
 }
@@ -214,7 +217,7 @@ left: 90%;
 
 /* Canvas Art Section */
 
-.canvas_art_section {
+.canvas_art_textbox {
     margin: 6em auto;
 }
 
@@ -229,12 +232,12 @@ left: 90%;
 /* Adventure Kits Section */
 
 
-.adventure_kits_section {
+.adventure_kits_textbox {
     margin: 6em auto;
 }
 
-.adventure_kits_section > h2,
-.adventure_kits_section > p {
+.adventure_kits_textbox > h2,
+.adventure_kits_textbox > p {
     text-align: right;
 }
 
