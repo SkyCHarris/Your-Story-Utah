@@ -12,6 +12,7 @@ hr {
     box-shadow: 3px 3px 3px #424242;
     background-color: lightgray;
     padding: .3em;
+    margin: 3em;
     width: 10%;
 }
 
@@ -156,6 +157,8 @@ header li {
 
 .photography_section {
     margin: 6em auto;
+    padding: 2em;
+    width: 100%;
 }
 
 .photography_section > h2, 
@@ -163,6 +166,11 @@ header li {
     text-align: right;
 }
 
+.photography_section > a,
+.adventure_kits_section > a  {
+position: relative;
+left: 90%;
+}
 
 .photo_gallery img {
     max-width: 100%;
@@ -173,6 +181,7 @@ header li {
 .photo_gallery {
     display: grid;
     grid-gap: 5px;
+    margin: 1em auto;
     grid-template-areas:
     "left left-mid-top left-mid-bottom"
     "right-mid-top right-mid-bottom right";
@@ -219,15 +228,21 @@ header li {
 
 /* Adventure Kits Section */
 
+
 .adventure_kits_section {
     margin: 6em auto;
 }
 
-.adventure_kits_image {
+.adventure_kits_section > h2,
+.adventure_kits_section > p {
+    text-align: right;
+}
+
+.adventure_kit_mountains {
     width: 100%;
-    height: 15em;
-    margin: auto;
-    border: solid darkgray 1px;
+    height: 25em;
+    opacity: 10%;
+    text-align: right;
 }
 
 /* Mobile */
