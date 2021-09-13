@@ -31,6 +31,7 @@ header {
 
 header h1 {
     text-align: center;
+    white-space: nowrap;
 }
 
 header a {
@@ -46,6 +47,7 @@ header ul {
     flex-grow: 1;
     justify-content: center;
     text-align: center;
+    padding: 0;
 }
 
 
@@ -54,6 +56,11 @@ header li {
     list-style-type: none;
 }
 
+header img {
+    width: 20%;
+    height: 20%;
+    margin: 1em;
+}
 
 
 /* Slider Section */
@@ -266,8 +273,31 @@ header li {
     body {
     font-size: 0.8em;
     }
+
+    header h1 {
+        display: none;
+    }
 }
 
+/* Tablet */
 @media screen and (max-width: 768px) and (min-width: 481px) {
-    
+    header h1 {
+        display: none;
+    }
+}
+
+/* Laptop */
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    header img {
+        display: none;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1025px) {
+    header img {
+        display: none;
+    }
 }
