@@ -42,7 +42,7 @@ header a {
     white-space: nowrap;
 }
 
-header ul {
+.main_navbar ul {
     display: flex;
     flex-grow: 1;
     justify-content: center;
@@ -59,6 +59,24 @@ header img {
     width: 20%;
     height: 20%;
     margin: 1em;
+}
+
+/* dropdown menu */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    .show {display:block;}
+}
+
+.dropdown_menu a {
+    text-decoration: none;
+    display: block;
 }
 
 
@@ -277,7 +295,8 @@ header img {
         display: none;
     }
 
-    .main_navbar {
+    .main_navbar,
+    .dropdown_menu {
         display: none;
     }
 }
@@ -288,9 +307,11 @@ header img {
         display: none;
     }
 
-    .main_navbar {
+    .main_navbar,
+    .dropdown_menu {
         display: none;
     }
+
 }
 
 /* Laptop */
