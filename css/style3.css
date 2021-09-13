@@ -50,7 +50,6 @@ header ul {
     padding: 0;
 }
 
-
 header li {
     padding: 1em;
     list-style-type: none;
@@ -277,11 +276,19 @@ header img {
     header h1 {
         display: none;
     }
+
+    .main_navbar {
+        display: none;
+    }
 }
 
 /* Tablet */
 @media screen and (max-width: 768px) and (min-width: 481px) {
     header h1 {
+        display: none;
+    }
+
+    .main_navbar {
         display: none;
     }
 }
