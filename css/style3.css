@@ -6,6 +6,16 @@ hr {
     color: darkgray;
 }
 
+.btn {
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 3px 3px #424242;
+    background-color: lightgray;
+    padding: .3em;
+    width: 10%;
+}
+
+
 /* Navbar */
 
 header {
@@ -16,9 +26,9 @@ header h1 {
     text-align: center;
 }
 
-a {
+header a {
     text-decoration: none;
-    color: darkslategray;
+    color: black;
     display: flex;
     justify-content: center;
 }
@@ -228,7 +238,7 @@ header li {
 /* Mobile */
 
 @media screen and (max-width: 480px) {
-    body, button {
+    body {
     font-size: 0.8em;
     }
 }
