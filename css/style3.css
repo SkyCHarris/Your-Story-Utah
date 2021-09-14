@@ -61,7 +61,7 @@ header img {
     margin: 1em;
 }
 
-/* dropdown menu */
+    /* dropdown menu */
 
 .dropdown {
     position: relative;
@@ -91,6 +91,12 @@ header img {
 .dropdown:hover .dropdown_menu {
     display: block;
 }
+
+    /* customer service */
+
+
+
+
 
 /* Slider Section */
 
@@ -299,10 +305,13 @@ header img {
 /* Mobile */
 
 @media screen and (max-width: 480px) {
+
     body {
     font-size: 0.8em;
     }
 
+
+    /* mobile header */
     header h1 {
         display: none;
     }
@@ -311,6 +320,25 @@ header img {
     .dropdown_menu {
         display: none;
     }
+
+    .ysu_icon {
+        width: 8em;
+        height: 8em;
+    }
+    
+    .hamburger_icon,
+    .customer_service_icon,
+    .shopping_cart_icon {
+        width: 3em;
+        height: 3em;
+    }
+
+
+    /* mobile slider */
+    .slider_textbox {
+        display: none;
+    }
+
 }
 
 /* Tablet */
