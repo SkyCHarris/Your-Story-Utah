@@ -57,7 +57,7 @@ header li {
 
 header img {
     width: 20%;
-    height: 20%;
+    height: 30%;
     margin: 1em;
 }
 
@@ -71,7 +71,12 @@ header img {
 .dropdown_menu {
     display: none;
     position: absolute;
-    .show {display:block;}
+    background-color: #F5F5F5;
+    padding-left: .3em;
+    min-width: 10em;
+    text-align: left;
+    box-shadow: 0px 8x 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 .dropdown_menu a {
@@ -79,6 +84,9 @@ header img {
     display: block;
 }
 
+.dropdown:hover .dropdown_menu {
+    display: block;
+}
 
 /* Slider Section */
 
