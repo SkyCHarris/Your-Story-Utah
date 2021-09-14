@@ -310,8 +310,13 @@ header img {
     font-size: 0.8em;
     }
 
-
     /* mobile header */
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
     header h1 {
         display: none;
     }
@@ -340,23 +345,40 @@ header img {
         display: none;
     }
 
-    header {
-        display: flex;
-        justify-content: space-around;
-    }
 
 }
 
 /* Tablet */
 @media screen and (max-width: 768px) and (min-width: 481px) {
+
+    body {
+        font-size: .85em;
+    }
+
+    header {
+        justify-content: space-around;
+    }
+
     header h1 {
         display: none;
     }
+
+    header li {
+        padding: .5em;
+    }
+
+    .ysu_icon {
+        display: none;
+    }
     
-    .main_navbar,
     .dropdown_menu {
         display: none;
     }
+
+    .hamburger_icon,
+    .customer_service_icon,
+    .shopping_cart_icon {
+        display: none;
 
 }
 
