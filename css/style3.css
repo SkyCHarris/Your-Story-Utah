@@ -42,12 +42,12 @@ header a {
     white-space: nowrap;
 }
 
-.main_navbar ul {
+.main_navbar {
     display: flex;
     flex-grow: 1;
     justify-content: center;
     text-align: center;
-    padding: 0;
+    padding: 1em;
 }
 
 header li {
@@ -82,6 +82,10 @@ header img {
 .dropdown_menu a {
     text-decoration: none;
     display: block;
+}
+
+.dropdown_menu a:hover {
+    background-color: #ddd;
 }
 
 .dropdown:hover .dropdown_menu {
@@ -314,7 +318,7 @@ header img {
     header h1 {
         display: none;
     }
-
+    
     .main_navbar,
     .dropdown_menu {
         display: none;
