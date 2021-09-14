@@ -23,7 +23,7 @@ hr {
 }
 
 
-/* Navbar */
+/* header */
 
 header {
     display: flex;
@@ -60,6 +60,7 @@ header img {
     height: 30%;
     margin: 1em;
 }
+
 
     /* dropdown menu */
 
@@ -379,7 +380,7 @@ header img {
     .customer_service_icon,
     .shopping_cart_icon {
         display: none;
-
+    }
 }
 
 /* Laptop */
@@ -388,6 +389,13 @@ header img {
     header img {
         display: none;
     }
+
+    .ysu_icon,
+    .hamburger_icon,
+    .customer_service_icon,
+    .shopping_cart_icon {
+    display: none;
+    }
 }
 
 /* Desktop */
@@ -395,5 +403,12 @@ header img {
 @media screen and (min-width: 1025px) {
     header img {
         display: none;
+    }
+
+    .ysu_icon,
+    .hamburger_icon,
+    .customer_service_icon,
+    .shopping_cart_icon {
+    display: none;
     }
 }
