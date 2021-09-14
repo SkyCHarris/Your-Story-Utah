@@ -324,19 +324,25 @@ header img {
     .ysu_icon {
         width: 8em;
         height: 8em;
+        margin-left: none;
     }
     
     .hamburger_icon,
     .customer_service_icon,
     .shopping_cart_icon {
-        width: 3em;
-        height: 3em;
+        width: 3.5em;
+        height: 3.5em;
     }
 
 
     /* mobile slider */
     .slider_textbox {
         display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
     }
 
 }
