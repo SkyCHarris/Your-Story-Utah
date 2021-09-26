@@ -20,12 +20,16 @@ hr {
     border-radius: 5%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /* header */
 
 header {
     display: flex;
-    padding: 1em;
+    padding: 1em 3em;
 }
 
 header h1 {
@@ -100,11 +104,24 @@ header img {
 
 .showcase {
     height: 50vh;
-    background-color: #878787;
+    width: 90vw;
+    margin: auto;
+    background-color: #989898;
     color: rgb(240, 238, 238);
     padding: 1em 1.5em;
 }
 
+.price_box {
+    width: 70vw;
+    height: 40vh;
+    margin: 2em auto;
+    border: double black 2px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
 
 
 
@@ -422,3 +439,5 @@ header img {
     display: none;
     }
 }
+
+
