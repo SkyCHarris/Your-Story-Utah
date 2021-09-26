@@ -1,5 +1,4 @@
 body {
-    box-sizing: border-box;
     max-width: 90%;
     margin: auto;
     font-size: 1.2em;
@@ -22,6 +21,10 @@ hr {
     border-radius: 5%;
 }
 
+
+.section {
+    border: 1px solid red;
+}
 
 /* header */
 
@@ -171,6 +174,7 @@ header img {
 .canvases_and_prints_section {
     text-align: center;
     margin: 6em auto;
+    max-width: 100%;
 }
 
 .img_box {
@@ -209,8 +213,8 @@ header img {
 
 .photography_section {
     margin: 6em auto;
-    padding: 2em;
     width: 100%;
+    max-width: 100%;
 }
 
 .photography_textbox {
