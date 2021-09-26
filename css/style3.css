@@ -1,5 +1,4 @@
 body {
-    max-width: 90%;
     margin: auto;
     font-size: 1.2em;
 }
@@ -26,6 +25,7 @@ hr {
 
 header {
     display: flex;
+    padding: 1em;
 }
 
 header h1 {
@@ -37,16 +37,17 @@ header a {
     text-decoration: none;
     color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     white-space: nowrap;
 }
 
 .main_navbar {
     display: flex;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     padding: 1em;
+    max-width: 60%;
 }
 
 header li {
@@ -94,6 +95,15 @@ header img {
 
     /* customer service */
 
+
+/* Showcase */
+
+.showcase {
+    height: 50vh;
+    background-color: #878787;
+    color: rgb(240, 238, 238);
+    padding: 1em 1.5em;
+}
 
 
 
@@ -238,6 +248,7 @@ header img {
 
 .gallery_img_1 {
     grid-area:"brianhead_art";
+
 }
 
 .gallery_img_2 {
@@ -342,15 +353,10 @@ header img {
 
 
     /* mobile slider */
+
     .slider_textbox {
         display: none;
     }
-
-    .photo_gallery{
-        grid-template-areas:
-        ""
-    }
-
 }
 
 /* Tablet */
