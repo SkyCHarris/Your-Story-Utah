@@ -22,10 +22,6 @@ hr {
 }
 
 
-.section {
-    border: 1px solid red;
-}
-
 /* header */
 
 header {
@@ -236,32 +232,32 @@ header img {
     grid-gap: 5px;
     margin: 1em auto;
     grid-template-areas:
-    "left left-mid-top left-mid-bottom"
-    "right-mid-top right-mid-bottom right";
+    "brianhead_art bryce_canyon fall_trees"
+    "zion_art sandhollow farm_art";
 }
 
 .gallery_img_1 {
-    grid-area: "left";
+    grid-area:"brianhead_art";
 }
 
 .gallery_img_2 {
-    grid-area: "left-mid-top";
+    grid-area: "bryce_canyon";
 }
 
 .gallery_img_3 {
-    grid-area: "left-mid-bottom";
+    grid-area: "fall_trees";
 }
 
 .gallery_img_4 {
-    grid-area: "right-mid-top";
+    grid-area: "zion_art";
 }
 
 .gallery_img_5 {
-    grid-area: "right-mid-bottom";
+    grid-area: "sandhollow";
 }
 
 .gallery_img_6 {
-    grid-area: "right";
+    grid-area: "farm_art";
 }
 
 
@@ -350,6 +346,10 @@ header img {
         display: none;
     }
 
+    .photo_gallery{
+        grid-template-areas:
+        ""
+    }
 
 }
 
