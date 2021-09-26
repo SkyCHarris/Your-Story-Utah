@@ -111,7 +111,9 @@ header img {
     padding: 1em 1.5em;
 }
 
-.price_box {
+
+/* Price Box */
+.price_box_section {
     width: 70vw;
     height: 40vh;
     margin: 2em auto;
@@ -124,6 +126,37 @@ header img {
 }
 
 
+/* Canvas Models */
+
+.canvas_models_section {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em auto;
+}
+
+#square_shape {
+    width: 5em;
+    height: 5em;
+    background: #989898
+}
+
+#landscape_shape {
+    width: 9em;
+    height:4em;
+    background: #989898;
+}
+
+#portrait_shape {
+    width: 4em;
+    height: 9em;
+    background: #989898;
+}
+
+#panoramic_shape {
+    width: 13em;
+    height: 4em;
+    background: #989898;
+}
 
 /* Slider Section */
 
