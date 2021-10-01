@@ -130,29 +130,42 @@ header img {
 
 .canvas_models_section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 2em auto;
 }
 
 #square_shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 5em;
     height: 5em;
     background: #989898
 }
 
 #landscape_shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 9em;
     height:4em;
     background: #989898;
 }
 
 #portrait_shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 4em;
     height: 9em;
     background: #989898;
 }
 
 #panoramic_shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 13em;
     height: 4em;
     background: #989898;
