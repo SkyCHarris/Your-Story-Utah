@@ -1,0 +1,75 @@
+
+
+
+/* Showcase */
+
+.showcase {
+    height: 50vh;
+    width: 90vw;
+    margin: auto;
+    background-color: #989898;
+    color: rgb(240, 238, 238);
+    padding: 1em 1.5em;
+}
+
+
+/* Price Box */
+.price_box_section {
+    width: 70vw;
+    height: 40vh;
+    margin: 2em auto;
+    border: double black 2px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* Canvas Models */
+
+.canvas_models_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em auto;
+}
+
+#square_shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5em;
+    height: 5em;
+    background: #989898
+}
+
+#landscape_shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9em;
+    height:4em;
+    background: #989898;
+}
+
+#portrait_shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4em;
+    height: 9em;
+    background: #989898;
+}
+
+#panoramic_shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13em;
+    height: 4em;
+    background: #989898;
+}
+
+/* Canvas Info Section */
