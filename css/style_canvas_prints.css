@@ -84,17 +84,22 @@
 .canvas_info_section {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .canvas_info_section img {
     width: 10em;
     height: 10em;
+    object-fit: cover;
 }
 
 .card {
     padding: 1em;
     display: grid;
     column-gap: 1em;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -105,9 +110,6 @@
 
 .card img {
     grid-area: img;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
 }
 
 .card h2 {
@@ -116,4 +118,39 @@
 
 .card p {
     grid-area: p;
+}
+
+@media screen and (min-width: 768px) {
+
+    .canvas_info_section {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "img img"
+        "h2 h2"
+        "p p";
+        width: 30%;
+        text-align: center;
+    }
+
+     .card p {
+         align-self: flex-start;
+     }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .canvas_info_section {
+        margin: auto;
+    }
+
+    .card {
+        width: 20%;
+    }
+
 }
